@@ -6,7 +6,7 @@ import { LatestInvoice } from '@/app/lib/definitions';
 export default async function LatestInvoices({
   latestInvoices,
 }: {
-  latestInvoices: LatestInvoice[];
+  latestInvoices: any;
 }) {
   return (
     <div className="flex w-full flex-col md:col-span-4">
